@@ -7,7 +7,7 @@ const AddTodo = () => {
 
   const handleAdd = () => {
     if (heading.trim()) {
-      addTodo({ id: Date.now(), heading, completed: false });
+      addTodo({ id: Date.now(), heading });
       setHeading("");
     }
   };
